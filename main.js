@@ -1,14 +1,14 @@
-class Person {
-    private _abc;
-    constructor(abc) {
-        this._abc = abc;
+class User {
+
+    sayPhrase() {
+        console.log(this.Phrase())
     }
 
 }
-const boris = new Person(111)
 
-boris.private_abc = 222
-
+class Admin extends User{
 
 
+}
 
+Admin.sayPhrase()

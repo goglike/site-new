@@ -1,0 +1,9 @@
+#root {
+    font-family: Arial, serif;
+    color: azure;
+}
+.app-wrapper
+{
+    display: grid;
+}
+
